@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #f7f8f9;
+}
+.header{
+    font-size:0.4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    border-bottom: #c0c0cc solid 0.01rem;
+}
+.header img{
+    margin:0 2%;
+    position: absolute;
+}
+.header span{
+    text-align: center;
+    width: 100%;
+}
